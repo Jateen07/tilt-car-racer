@@ -2,6 +2,8 @@
 
 A small top-down Canvas racer controlled by phone motion readings sent through nikki Streams. The laptop runs the game; the phone acts as a steering wheel. The page uses the existing nikki Streams SDK and the project WebSocket address, prefilled as `10.89.84.190:3000`.
 
+For the full proof of concept, including the system flow, implementation snippets, calibration math, run instructions, and troubleshooting, see [POC.md](POC.md).
+
 ## Phone sensor setup
 
 In the Streams screen shown for this demo, switch on **Orientation**, **Gyroscope**, and **Game Rotation Vector**, then start streaming. Orientation alone drives steering. Game Rotation Vector and Gyroscope remain visible in diagnostics until their axis mapping is verified. Ambient Light and the other sensors shown can stay off.
